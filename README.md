@@ -65,7 +65,7 @@ distance = np.linalg.norm(embs - centroid, axis=1)
 We support three modes:
 1. **Keyword only** — match any lemmatized keyword  
 2. **Centroid only** — within cosine-distance radius  
-3. **Union** — either condition
+3. **Hybrid** — either condition
 
 Thresholds are tuned on our 400-message dev set (∼45% positives).
 
