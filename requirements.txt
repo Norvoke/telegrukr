@@ -1,0 +1,5 @@
+numpy>=1.19.0
+datasets
+sentence-transformers
+torch
+joblib
